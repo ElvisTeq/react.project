@@ -1,0 +1,29 @@
+#1
+Creating a new React Project
+
+----------------------------------------------- npx create-react-app any-name
+
+- Create folder for react project
+- Run in => Command Prompt
+
+----------------------------------------------- cd react-complete-guide/
+
+- Access folder in command
+- npm start => To start react
+
+----------------------------------------------- npm install
+
+- Install all dependencias in the (package.json)
+
+///////////////////////////////////////////////////////////////////////////////////////////////
+
+#2
+Analyzing a Standar React Project
+
+Exaple => "index.js"
+
+----------------------------------------------- import ReactDOM from 'react-dom/clinet'
+* Package to create user interface
+
+----------------------------------------------- reactDOM.createRoot()
+* Selects a element "apot" for "react" to manipulate/replace content
