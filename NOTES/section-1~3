@@ -97,3 +97,18 @@ Adding "normal" JavaScript Logic to Component
 
 * Created Date (month, day, year) and stored into a Variable
 - Then added the Date variable into the JSX
+
+///////////////////////////////////////////////////////////////////////////////////////////////
+#11
+Splitting Components Into Multiple Components
+
+* Created "ExpenseDate.js"
+- To handle all Dates
+- Imported to "ExpenseItem.js"
+
+* Using "props" to chain components
+- ExpensesDate => ExpenseItem => App.js
+
+------------------------------------------- <ExpenseDate />
+- Shorter way to write => <ExpenseDate></ExpenseDate>
+- Only when there's no content inside
