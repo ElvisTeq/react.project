@@ -112,3 +112,14 @@ Splitting Components Into Multiple Components
 ------------------------------------------- <ExpenseDate />
 - Shorter way to write => <ExpenseDate></ExpenseDate>
 - Only when there's no content inside
+
+///////////////////////////////////////////////////////////////////////////////////////////////
+#12
+Challenge Notes
+
+* Created "Expenses.js"
+- returns "props" like => title={props.items[0].title}
+
+* In "App.js"
+- <Expenses items={expenses} />
+- changing "items" from (Expenses.js) === "expenses" from (App.js)

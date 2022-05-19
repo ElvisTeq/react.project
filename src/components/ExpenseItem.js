@@ -1,7 +1,7 @@
 import "./ExpenseItem.css"; // This is how CSS file is imported
 import ExpenseDate from "./ExpenseDate";
 
-// date={props.date} => was added so "App.js" can use its own data
+// <ExpenseDate date={props.date} /> => Storing "ExpenseData" functionality
 function ExpenseItem(props) {
   return (
     <div className="expense-item">
