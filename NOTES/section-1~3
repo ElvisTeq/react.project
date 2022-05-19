@@ -47,3 +47,23 @@ Building a Custom Component
 
 Example => "ExpenseItem.js"
 
+///////////////////////////////////////////////////////////////////////////////////////////////
+#6
+Writing More Complex JSX code
+
+Example => "ExpenseItem.js"
+- Writting multiple elements
+
+///////////////////////////////////////////////////////////////////////////////////////////////
+#7
+Adding Basic CSS Styling
+
+* Create file with the same name as the "Component".css
+Example => "ExpenseItem.css"
+
+* Import "Component.css" file to the "Component.js"
+- To use css in a component
+
+------------------------------------------- className="css-style-name"
+- To add a css Style to a element
+Example => "ExpenseItem.js"
