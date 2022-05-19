@@ -81,3 +81,12 @@ Outputting Dynamic Data & Working with Expressions in JSX
 ------------------------------------------- {varName}
 - To add Varable as a Element value
 - Ex => <h2>{VariableName}</h2>
+
+///////////////////////////////////////////////////////////////////////////////////////////////
+#9
+Passing Data via "Props"
+- Using a Component template in a different module
+
+------------------------------------------- FunctionName(props)
+- Adding 1 property to a Component Function to pass data into the imported file
+- Ex => "ExpenseItem.js" to "App.js" on how to use
