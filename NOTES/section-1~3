@@ -67,3 +67,17 @@ Example => "ExpenseItem.css"
 ------------------------------------------- className="css-style-name"
 - To add a css Style to a element
 Example => "ExpenseItem.js"
+
+///////////////////////////////////////////////////////////////////////////////////////////////
+#8
+Outputting Dynamic Data & Working with Expressions in JSX
+
+* Creating variables in Component function
+
+------------------------------------------- {}
+- To write JS code as a Element value
+- Ex => <h2>{anyJsCode}</h2>
+
+------------------------------------------- {varName}
+- To add Varable as a Element value
+- Ex => <h2>{VariableName}</h2>
