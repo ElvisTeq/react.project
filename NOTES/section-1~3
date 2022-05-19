@@ -16,7 +16,6 @@ Creating a new React Project
 - Install all dependencias in the (package.json)
 
 ///////////////////////////////////////////////////////////////////////////////////////////////
-
 #2
 Analyzing a Standar React Project
 
@@ -27,3 +26,24 @@ Exaple => "index.js"
 
 ----------------------------------------------- reactDOM.createRoot()
 * Selects a element "apot" for "react" to manipulate/replace content
+
+///////////////////////////////////////////////////////////////////////////////////////////////
+#3
+Introducing JSX => HTML code inside JS
+
+///////////////////////////////////////////////////////////////////////////////////////////////
+#4
+How React Works
+
+* JS => uses imperative code (step by step strunctions)
+* React.js => uses components to build HTML (reusing functions to render HTML)
+
+///////////////////////////////////////////////////////////////////////////////////////////////
+#5
+Building a Custom Component
+
+* Component in React.js is just a JS function
+* Component starts with capital Name 
+
+Example => "ExpenseItem.js"
+
