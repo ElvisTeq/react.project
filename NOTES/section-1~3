@@ -90,3 +90,10 @@ Passing Data via "Props"
 ------------------------------------------- FunctionName(props)
 - Adding 1 property to a Component Function to pass data into the imported file
 - Ex => "ExpenseItem.js" to "App.js" on how to use
+
+///////////////////////////////////////////////////////////////////////////////////////////////
+#10
+Adding "normal" JavaScript Logic to Component
+
+* Created Date (month, day, year) and stored into a Variable
+- Then added the Date variable into the JSX
