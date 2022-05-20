@@ -19,3 +19,20 @@ ________________________________________________________________________________
 #3
 Working with "State"
 
+* Implementing "State"
+Ex=> "ExpenseItems.js"
+
+---------------------------------------- import React from 'react'
+- Importing react (for older versions)
+
+---------------------------------------- import { useState } from 'react'
+- Importing Function to upload / call a Componen again to update data
+
+---------------------------------------- const [data, Function] = useState(props.data)
+- Returns a array with => [data, function]
+[data] => Current state value
+[function] => Function for updating the value => (This function will call the componen again to update)
+
+******************* Important ******************
+* [function] => Changes will apply by the end of the function where is called
+* [function] => Must be call only inside the componen function
