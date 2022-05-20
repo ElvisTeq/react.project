@@ -40,7 +40,7 @@ How React Works
 
 ///////////////////////////////////////////////////////////////////////////////////////////////
 #5
-Building a Custom Component
+(((Building a Custom Component)))
 
 * Component in React.js is just a JS function
 * Component starts with capital Name 
@@ -49,14 +49,14 @@ Example => "ExpenseItem.js"
 
 ///////////////////////////////////////////////////////////////////////////////////////////////
 #6
-Writing More Complex JSX code
+(((Writing More Complex JSX code)))
 
 Example => "ExpenseItem.js"
 - Writting multiple elements
 
 ///////////////////////////////////////////////////////////////////////////////////////////////
 #7
-Adding Basic CSS Styling
+(((Adding Basic CSS Styling)))
 
 * Create file with the same name as the "Component".css
 Example => "ExpenseItem.css"
@@ -70,7 +70,7 @@ Example => "ExpenseItem.js"
 
 ///////////////////////////////////////////////////////////////////////////////////////////////
 #8
-Outputting Dynamic Data & Working with Expressions in JSX
+(((Outputting Dynamic Data & Working with Expressions in JSX)))
 
 * Creating variables in Component function
 
@@ -84,7 +84,7 @@ Outputting Dynamic Data & Working with Expressions in JSX
 
 ///////////////////////////////////////////////////////////////////////////////////////////////
 #9
-Passing Data via "Props"
+(((Passing Data via "Props")))
 - Using a Component template in a different module
 
 ------------------------------------------- FunctionName(props)
@@ -93,14 +93,14 @@ Passing Data via "Props"
 
 ///////////////////////////////////////////////////////////////////////////////////////////////
 #10
-Adding "normal" JavaScript Logic to Component
+(((Adding "normal" JavaScript Logic to Component)))
 
 * Created Date (month, day, year) and stored into a Variable
 - Then added the Date variable into the JSX
 
 ///////////////////////////////////////////////////////////////////////////////////////////////
 #11
-Splitting Components Into Multiple Components
+((((((((Splitting Components Into Multiple Components))))))))
 
 * Created "ExpenseDate.js"
 - To handle all Dates
@@ -115,7 +115,7 @@ Splitting Components Into Multiple Components
 
 ///////////////////////////////////////////////////////////////////////////////////////////////
 #12
-Challenge Notes
+((((((((((Challenge Notes))))))))))
 
 * Created "Expenses.js"
 - returns "props" like => title={props.items[0].title}
@@ -123,3 +123,15 @@ Challenge Notes
 * In "App.js"
 - <Expenses items={expenses} />
 - changing "items" from (Expenses.js) === "expenses" from (App.js)
+
+///////////////////////////////////////////////////////////////////////////////////////////////
+#13
+The Concept of "Composition" (children props)
+- Creating/Adding a parent css.style element
+
+* Created "Card.js" / "Card.css"
+- Implemented => "ExpenseItem.js"
+
+-------------------------------------------- {props.children}
+- To add props element as a children to a "class"
+Ex => "Card.js" added to => "ExpenseItem.js" / "Expenses.js"
