@@ -5,3 +5,17 @@ Listening to Events & Working with Event Handlers
 ---------------------------------------- onCLick={}
 - Event Listener for Click
 Ex => "ExpenseItem.js"
+
+____________________________________________________________________________________________________________
+#2
+How Component Function Are Executed
+
+* They are executed by order
+
+Ex => "ExpenseItem.js"
+- (let title = props.title;) => will not be called because => "clickHandler" is called before "App.js"
+  
+____________________________________________________________________________________________________________
+#3
+Working with "State"
+
