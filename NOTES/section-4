@@ -1,0 +1,7 @@
+#1
+Listening to Events & Working with Event Handlers
+
+<button onCLick={}></button>
+---------------------------------------- onCLick={}
+- Event Listener for Click
+Ex => "ExpenseItem.js"
