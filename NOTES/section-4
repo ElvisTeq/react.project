@@ -127,3 +127,19 @@ Child-to-Parent Component Communication (Button-up)
 - "props" is basically used to access data that was passed 
 Ex => <Expenses items={expenses} />
 - in (Expenses) we need to call (props.items) === {expenses} 
+
+____________________________________________________________________________________________________________
+#13
+Challenge
+
+********************** NOTES TO PASS DATA **********************
+1) Create function to get data 
+
+2) Use => ([data, changeDataFunction] "useState()") to change data
+
+3) Create a function that takes a "data", then call "changeDataFunction(data)" to change it
+
+4) Pass the function using the "return" HTML 
+Ex=> anyName={function from step "3"}
+
+5) Using (props), call the passed function with (event.target.value) as a argument 
