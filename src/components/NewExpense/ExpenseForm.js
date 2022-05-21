@@ -3,38 +3,44 @@ import "./ExpenseForm.css";
 
 const ExpenseForm = () => {
   // -------- Creating State with multiple States ----------
-  // const [enteredTitle, setTitle] = useState("");
-  // const [enteredAmount, setAmount] = useState("");
-  // const [enteredDate, setDate] = useState("");
+  const [enteredTitle, setTitle] = useState("");
+  const [enteredAmount, setAmount] = useState("");
+  const [enteredDate, setDate] = useState("");
 
   // -------- Creating multiple Stated with one State ---------
-  const [userInput, setUserInput] = useState({
-    enteredTitle: "",
-    enteredAmount: "",
-    enteredDate: "",
-  });
+  // const [userInput, setUserInput] = useState({
+  //   enteredTitle: "",
+  //   enteredAmount: "",
+  //   enteredDate: "",
+  // });
 
   // => onChange={titleChangeHandler}
+  // Gets total value in every Key Input
   const titleChangeHandler = (event) => {
-    // Gets total value in every Key Input
-    setUserInput({
-      ...userInput, // Add the rest of the Data as default
-      enteredTitle: event.target.value, // Change the one we need
-    });
+    setTitle(event.target.value);
+
+    // ******** To Update State That Depends on The Previous State ********
+    // setUserInput((prevState) => {
+    //   return { ...prevState, enteredTitle: event.target.value };
+    // });
   };
 
   const amountChangeHandler = (event) => {
-    setUserInput({
-      ...userInput,
-      enteredAmount: event.target.value,
-    });
+    setAmount(event.target.value);
+
+    // ******** To Update State That Depends on The Previous State ********
+    // setUserInput((prevState) => {
+    //   return { ...prevState, enteredAmount: event.target.value };
+    // });
   };
 
   const dateChangeHandler = (event) => {
-    setUserInput({
-      ...userInput,
-      enteredDate: event.target.value,
-    });
+    setDate(event.target.value);
+
+    // ******** To Update State That Depends on The Previous State ********
+    // setUserInput((prevState) => {
+    //   return { ...prevState, enteredDate: event.target.value };
+    // });
   };
 
   return (

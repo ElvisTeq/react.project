@@ -85,3 +85,10 @@ Using One State Instead (And What's Better)
 ---------------------------------------------- useState({})
 - To create one State for multiple inputs
 Ex => "ExpenseForm.js"
+
+____________________________________________________________________________________________________________
+#9
+Updating State That Depends on The Previous State
+
+* Function from "useState()" is called differently in order to implement this
+Ex => "ExpenseForm.js"
