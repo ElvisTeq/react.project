@@ -24,6 +24,7 @@ Ex=> "ExpenseItems.js"
 
 ---------------------------------------- import React from 'react'
 - Importing react (for older versions)
+- JSX requires this
 
 ---------------------------------------- import { useState } from 'react'
 - Importing Function to upload / call a Componen again to update data
@@ -50,3 +51,11 @@ A Closer Look at the "useState" Hook
 - onClick()
 
 ____________________________________________________________________________________________________________
+#5
+Adding Form Imputs
+
+* Created => "NewExpense" 
+- ExpenseForm.css
+- ExpenseForm.js
+- NewExpense.css
+- NewExpense.js
