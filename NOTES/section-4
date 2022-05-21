@@ -36,3 +36,17 @@ Ex=> "ExpenseItems.js"
 ******************* Important ******************
 * [function] => Changes will apply by the end of the function where is called
 * [function] => Must be call only inside the componen function
+
+____________________________________________________________________________________________________________
+#4
+A Closer Look at the "useState" Hook
+
+* Components are created individualy each time is called.
+- This way the state will not update all of them at the same time
+
+* State can be Updated in many wais
+- setTimeout()
+- eventListeners()
+- onClick()
+
+____________________________________________________________________________________________________________
