@@ -70,3 +70,10 @@ Listening to User Imput
 
 ---------------------------------------------- onChange={}
 - Every time any changes happends
+
+____________________________________________________________________________________________________________
+#7
+Working with Multiple States
+
+* We can use Multiple "useState()" inside a Component
+Ex => "ExpenseForm.js"
