@@ -111,3 +111,19 @@ Adding Two-Way Binding
 * Re-assign the value to a empthy string "" with the (useState()) update function
 - Then add "value={currentStateValue}" from the (useState()), which points to the empthy string "" that we re-assign
 Ex => "ExpenseForm.js"
+
+____________________________________________________________________________________________________________
+#12
+Child-to-Parent Component Communication (Button-up)
+
+* Passing data to another Component
+
+* Implemented => "NewExpense.js"
+- Creating a function that saves data
+- Using the created function in another Component (<ExpenseForm onSaveExpenseData={saveExpenseDataHandler} />)
+- Using (props) to use the function in the other componen (props.onSaveExpenseData(dataToSave))
+
+******************** Important **********************
+- "props" is basically used to access data that was passed 
+Ex => <Expenses items={expenses} />
+- in (Expenses) we need to call (props.items) === {expenses} 

@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./ExpenseForm.css";
 
-const ExpenseForm = () => {
+const ExpenseForm = (props) => {
   // -------- Creating State with multiple States ----------
   const [enteredTitle, setTitle] = useState("");
   const [enteredAmount, setAmount] = useState("");
@@ -52,7 +52,10 @@ const ExpenseForm = () => {
       amount: enteredAmount,
       date: new DataTransfer(enteredDate),
     };
-    console.log(expenseData);
+
+    // Function from another Component, that gets data from other Componend
+    props.onSaveExpenseData(expenseData);
+
     // Clearing Input field
     // Then re-assigning it by adding (value={enteredTitle}) in the HTML
     setTitle("");

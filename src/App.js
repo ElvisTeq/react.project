@@ -24,10 +24,16 @@ const App = () => {
     },
   ];
 
-  // "items" from (Expenses.js) === "expenses" from (HERE)
+  const addExpenseHandler = (expense) => {
+    console.log("in App.js");
+    console.log(expense);
+  };
+
+  // (onAddExpense={addExpenseHandler}) passing a function to (NewExpense) Component
+  // (items={expenses}) Passing Data stored as "items" to (Expenses)
   return (
     <div>
-      <NewExpense />
+      <NewExpense onAddExpense={addExpenseHandler} />
       <Expenses items={expenses} />
     </div>
   );
