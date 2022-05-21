@@ -77,3 +77,11 @@ Working with Multiple States
 
 * We can use Multiple "useState()" inside a Component
 Ex => "ExpenseForm.js"
+
+____________________________________________________________________________________________________________
+#8
+Using One State Instead (And What's Better)
+
+---------------------------------------------- useState({})
+- To create one State for multiple inputs
+Ex => "ExpenseForm.js"
