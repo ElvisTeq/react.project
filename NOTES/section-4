@@ -59,3 +59,14 @@ Adding Form Imputs
 - ExpenseForm.js
 - NewExpense.css
 - NewExpense.js
+
+____________________________________________________________________________________________________________
+#6
+Listening to User Imput
+
+* Created => "titleChangeHandler(event)"
+- Attatched to a "onChange" event
+- has access to current value in every "key" we input (event.target.value)
+
+---------------------------------------------- onChange={}
+- Every time any changes happends
