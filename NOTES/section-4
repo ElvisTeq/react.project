@@ -102,3 +102,12 @@ Handling Form Submission
 
 **************** IMPORTANT *****************
 - When a (button type="submit") is inside a (<form></form), automatically has a (onClick) event
+
+____________________________________________________________________________________________________________
+#11
+Adding Two-Way Binding
+- Clearing Input after Submitting
+
+* Re-assign the value to a empthy string "" with the (useState()) update function
+- Then add "value={currentStateValue}" from the (useState()), which points to the empthy string "" that we re-assign
+Ex => "ExpenseForm.js"
