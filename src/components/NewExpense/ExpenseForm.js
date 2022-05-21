@@ -43,8 +43,21 @@ const ExpenseForm = () => {
     // });
   };
 
+  const submitHandler = (event) => {
+    event.preventDefault(); // prevent page reload
+
+    // Storing (State) data
+    const expenseData = {
+      title: enteredTitle,
+      amount: enteredAmount,
+      date: new DataTransfer(enteredDate),
+    };
+    console.log(expenseData);
+  };
+
+  // We add "onSubmit" in the (form) because, (button type="submit") automatically has a (onClick) event
   return (
-    <form>
+    <form onSubmit={submitHandler}>
       <div className="new-expense__controls">
         <div className="new-expense__control">
           <label>Title</label>

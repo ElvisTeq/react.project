@@ -92,3 +92,13 @@ Updating State That Depends on The Previous State
 
 * Function from "useState()" is called differently in order to implement this
 Ex => "ExpenseForm.js"
+
+____________________________________________________________________________________________________________
+#10
+Handling Form Submission
+
+* Created => "submitHandler()"
+- To get all (State) data when Submitting
+
+**************** IMPORTANT *****************
+- When a (button type="submit") is inside a (<form></form), automatically has a (onClick) event
