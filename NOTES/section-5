@@ -39,3 +39,10 @@ Outputting Conditional Content
 
 * Using conditions in Components
 Ex=> "expensesContent" in "Expenses.js"
+
+___________________________________________________________________________________________________________
+#6
+Adding Conditional Return Statement
+
+* Created => "ExpensesList.js"
+- Moved the conditional code from #5
