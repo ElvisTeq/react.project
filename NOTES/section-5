@@ -16,3 +16,13 @@ Using Stateful Lists
 
 * Changes => "App.js"
 - Using "useState()" to Create new Expenses by ( return [expense, ...prevExpenses] )
+
+___________________________________________________________________________________________________________
+#3
+Understandig "Keys"
+
+* Implemented => "Expenses.js"
+
+---------------------------------------------- key={data.id}
+- To assign id to a data
+- Can be added to a component or HTML element
