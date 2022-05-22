@@ -26,3 +26,9 @@ Understandig "Keys"
 ---------------------------------------------- key={data.id}
 - To assign id to a data
 - Can be added to a component or HTML element
+
+___________________________________________________________________________________________________________
+#4
+Filtering HTML elements in Components
+
+* Created => "filteredYears()" in "Expenses.js"
