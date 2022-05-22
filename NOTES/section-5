@@ -32,3 +32,10 @@ ________________________________________________________________________________
 Filtering HTML elements in Components
 
 * Created => "filteredYears()" in "Expenses.js"
+
+___________________________________________________________________________________________________________
+#5
+Outputting Conditional Content
+
+* Using conditions in Components
+Ex=> "expensesContent" in "Expenses.js"
