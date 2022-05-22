@@ -1,10 +1,18 @@
 #1
 Rendering Lists of Data
 
-* Iliterating HTML
+- Iliterating HTML
 
 ---------------------------------------------- {props.data.map((e) => (<AnyComponent title={e.title} name={e.name}))}
+
 - Using a function to iliterate HTML elements
-Ex=> Expenses.js
+  Ex=> Expenses.js
 
 * Basically Calling a function inside "{}" in the HTML
+
+___________________________________________________________________________________________________________
+#2
+Using Stateful Lists
+
+* Changes => "App.js"
+- Using "useState()" to Create new Expenses by ( return [expense, ...prevExpenses] )

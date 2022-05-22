@@ -50,7 +50,7 @@ const ExpenseForm = (props) => {
     const expenseData = {
       title: enteredTitle,
       amount: enteredAmount,
-      date: new DataTransfer(enteredDate),
+      date: new Date(enteredDate),
     };
 
     // Function from another Component, that gets data from other Componend
