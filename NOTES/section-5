@@ -65,3 +65,10 @@ Demo App: Adding a Chart
 
 * Implemented in "Chart.js"
 - Mapping through data and display all elements using "Props"
+
+___________________________________________________________________________________________________________
+#9
+Adding Dynamic Styles
+
+------------------------------------------------ style{{ color: 'red' }}
+- to manually change css.style in JSX
