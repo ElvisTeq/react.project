@@ -46,3 +46,11 @@ Adding Conditional Return Statement
 
 * Created => "ExpensesList.js"
 - Moved the conditional code from #5
+
+___________________________________________________________________________________________________________
+#7
+Challenge 4
+
+* Using True/False so determine to show button or form => "NewExpenses.js"
+
+* Added button in => "ExpenseForm" and "NewExpense"
