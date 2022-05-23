@@ -54,3 +54,14 @@ Challenge 4
 * Using True/False so determine to show button or form => "NewExpenses.js"
 
 * Added button in => "ExpenseForm" and "NewExpense"
+
+************************ Key Notes ***********************
+1) Figure Where is the button is needed to be added
+2) Add Event to the button (what does the botton will do)
+
+___________________________________________________________________________________________________________
+#8
+Demo App: Adding a Chart
+
+* Implemented in "Chart.js"
+- Mapping through data and display all elements using "Props"
