@@ -70,5 +70,18 @@ ________________________________________________________________________________
 #9
 Adding Dynamic Styles
 
------------------------------------------------- style{{ color: 'red' }}
+------------------------------------------------ style={{ color: 'red' }}
 - to manually change css.style in JSX
+
+___________________________________________________________________________________________________________
+#10
+Wrap Up & Next Step (Implemented ChartBars)
+
+* Created => "ExpensesChart.js"
+- To create template of the chart bar data
+- for-of loop => to store data into the template
+
+********************* IMPROTANT *********************
+- When passing data in JSX => <anyComponent anyCode={anything} />
+- anyComponent has access to {anything} as "anyCode" without importing 
+

@@ -4,8 +4,10 @@ import "./ChartBar.css";
 const ChartBar = (props) => {
   let fillBarHeight = "0%";
 
-  if (props.max > 0) {
+  if (props.maxValue > 0) {
     // +'%' => converts into a string with "%"
+    // props.maxValue => highest month value
+    // props.value => each month.value
     fillBarHeight = Math.round((props.value / props.maxValue) * 100) + "%";
   }
 

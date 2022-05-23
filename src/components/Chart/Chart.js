@@ -3,13 +3,19 @@ import ChartBar from "./ChartBar";
 import "./Chart.css";
 
 const Chart = (props) => {
+  // Getting "dataPoints.values" from "ExpensesChart"
+  const dataPointValues = props.dataPoints.map((dataPoint) => dataPoint.value);
+
+  // Find the Highest value in a month
+  const totalMaximum = Math.max(...dataPointValues);
+
   return (
     <div className="chart">
       {props.dataPoints.map((dataPoint) => (
         <ChartBar
           key={dataPoint.id}
           value={dataPoint.value}
-          maxValue={null}
+          maxValue={totalMaximum}
           label={dataPoint.label}
         />
       ))}
